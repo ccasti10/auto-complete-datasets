@@ -19,6 +19,12 @@
   ],
   "main": "./extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "jclDatasetAutocomplete.selectDatasetFile",
+        "title": "JCL: Seleccionar archivo de datasets"
+      }
+    ],
     "configuration": {
       "title": "JCL Dataset Autocomplete",
       "properties": {
