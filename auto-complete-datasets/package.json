@@ -3,7 +3,7 @@
   "displayName": "JCL Dataset Autocomplete",
   "description": "Autocompletado de datasets desde archivo externo",
   "version": "1.0.0",
-  "publisher": "tu-nombre",
+  "publisher": "ccasti10",
   "repository": {
     "type": "git",
     "url": "https://github.com/ccasti10/auto-complete-datasets.git"
