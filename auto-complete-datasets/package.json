@@ -1,0 +1,29 @@
+{
+  "name": "jcl-dataset-autocomplete",
+  "displayName": "JCL Dataset Autocomplete",
+  "description": "Autocompletado de datasets desde archivo externo",
+  "version": "1.0.0",
+  "publisher": "christiancastillo",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:jcl"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "JCL Dataset Autocomplete",
+      "properties": {
+        "jclDatasetAutocomplete.datasetFile": {
+          "type": "string",
+          "default": "D:\\jcl-datasets.txt",
+          "description": "Ruta al archivo con la lista de datasets"
+        }
+      }
+    }
+  }
+}
